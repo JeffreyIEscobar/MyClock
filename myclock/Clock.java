@@ -1,8 +1,7 @@
 package myclock;
-
+import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-import javax.swing.*;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.TimeZone;
@@ -11,17 +10,19 @@ public class Clock {
     public static void main(String[] args) {
         JFrame frame = new JFrame("World Clocks");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(600, 200);
-        frame.setLayout(new GridLayout(1, 4));
+        frame.setSize(300, 600); // Adjust the frame size for vertical layout
+        frame.setLayout(new GridLayout(5, 1, 0, 5)); // 5 rows, 1 column, 10px vertical gap
 
-        ClockPanel sanFranciscoClock = new ClockPanel("America/Los_Angeles", "San Francisco");
-        ClockPanel newYorkClock = new ClockPanel("America/New_York", "New York");
-        ClockPanel londonClock = new ClockPanel("Europe/London", "London");
-        ClockPanel seoulClock = new ClockPanel("Asia/Seoul", "Seoul");
+        ClockPanel sanFranciscoClock = new ClockPanel("America/Los_Angeles", "San Francisco, California, U.S.A.");
+        ClockPanel newYorkClock = new ClockPanel("America/New_York", "New York, New York, U.S.A.");
+        ClockPanel londonClock = new ClockPanel("Europe/London", "London, United Kingdom");
+        ClockPanel frankfurtClock = new ClockPanel("Europe/Berlin", "Frankfurt, Germany");
+        ClockPanel seoulClock = new ClockPanel("Asia/Seoul", "Seoul, South Korea");
 
         frame.add(sanFranciscoClock);
         frame.add(newYorkClock);
         frame.add(londonClock);
+        frame.add(frankfurtClock);
         frame.add(seoulClock);
 
         frame.setVisible(true);
