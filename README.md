@@ -25,14 +25,7 @@ My Clock is a Java-based application that displays the current time in different
 
 ## Contributing
 
-Contributions to this project are welcome! To contribute, follow these steps:
-
-1. Fork the project on GitHub.
-2. Create a new branch for your contributions.
-3. Make your changes and commit them.
-4. Push your changes to your fork.
-5. Submit a pull request to the main repository.
-
+Contributions are welcome! If you'd like to enhance or customize this application, feel free to fork this repository and submit a pull request.
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
