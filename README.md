@@ -36,3 +36,8 @@ Contributions to this project are welcome! To contribute, follow these steps:
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For questions or feedback, please contact Jeffrey I. Escobar via Jeffreyianescobar@gmail.com
+
